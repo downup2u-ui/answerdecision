@@ -8,8 +8,10 @@
       
       
       
-        <link rel="canonical" href="https://answerdecision.com/webhook-not-triggered/">
+        <link rel="canonical" href="https://answerdecision.com/fix-403/">
       
+      
+        <link rel="prev" href="../why-this-site-exists/">
       
       
       
@@ -21,7 +23,7 @@
     
     
       
-        <title>This page has moved - AnswerDecision</title>
+        <title>Fix 403 Forbidden - AnswerDecision</title>
       
     
     
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#this-page-has-moved" class="md-skip">
+        <a href="#how-to-fix-403-forbidden-error-step-by-step" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              This page has moved
+              Fix 403 Forbidden
             
           </span>
         </div>
@@ -167,7 +169,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -407,10 +411,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../fix-403/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fix 403 Forbidden
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -426,6 +457,148 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generate-the-correct-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generate the correct fix
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Generate the correct fix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-where-do-you-see-the-403-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Where do you see the 403 error?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-recent-changes-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Recent changes? (optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#most-likely-fix-recommended-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Most likely fix (recommended order)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Most likely fix (recommended order)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-permissions-highest-success-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Permissions (highest success rate)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-path-mismatch-root-alias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Path mismatch (root / alias)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-reload-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — Reload server
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-its-cloudflare-cdn-403" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If it’s Cloudflare / CDN 403
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-its-api-403" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If it’s API 403
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this exists
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -438,7 +611,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -449,6 +624,136 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generate-the-correct-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generate the correct fix
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Generate the correct fix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-where-do-you-see-the-403-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Where do you see the 403 error?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-recent-changes-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Recent changes? (optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#most-likely-fix-recommended-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Most likely fix (recommended order)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Most likely fix (recommended order)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-permissions-highest-success-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Permissions (highest success rate)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-path-mismatch-root-alias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Path mismatch (root / alias)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-reload-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — Reload server
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-its-cloudflare-cdn-403" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If it’s Cloudflare / CDN 403
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-its-api-403" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If it’s API 403
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this exists
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -462,21 +767,81 @@
               <article class="md-content__inner md-typeset">
                 
                   
-
-
-
-<h1 id="this-page-has-moved">This page has moved</h1>
-<p>The webhook-specific decision page is now maintained on a dedicated technical decision site.</p>
-<p>This domain (answerdecision.com) is reserved for general decision boundaries only.</p>
+  
 
 
 
 
+<h1 id="how-to-fix-403-forbidden-error-step-by-step">How to Fix 403 Forbidden Error (Step-by-Step)</h1>
+<p>403 Forbidden means your request reached the server, but access was denied.</p>
+<p>This page shows the <strong>exact repair order</strong> that fixes most 403 errors first —<br />
+no guessing, no long tutorials.</p>
+<hr />
+<h2 id="generate-the-correct-fix">Generate the correct fix</h2>
+<h3 id="1-where-do-you-see-the-403-error">1) Where do you see the 403 error?</h3>
+<ul>
+<li>Browser shows a 403 page</li>
+<li>CDN / Cloudflare shows a 403 page</li>
+<li>API request / curl returns 403</li>
+<li>Not sure</li>
+</ul>
+<h3 id="2-recent-changes-optional">2) Recent changes? (optional)</h3>
+<ul>
+<li>After deploy</li>
+<li>After config change</li>
+<li>After domain / DNS change</li>
+</ul>
+<hr />
+<h2 id="most-likely-fix-recommended-order">Most likely fix (recommended order)</h2>
+<h3 id="step-1-permissions-highest-success-rate">Step 1 — Permissions (highest success rate)</h3>
+<ul>
+<li>Directories: <code>755</code></li>
+<li>Files: <code>644</code></li>
+<li>Ensure the web server user can read the path</li>
+</ul>
+<h3 id="step-2-path-mismatch-root-alias">Step 2 — Path mismatch (root / alias)</h3>
+<ul>
+<li>Confirm configured <code>root</code> or <code>alias</code> path exists</li>
+<li>Check for typos</li>
+<li>Confirm the directory is not empty</li>
+</ul>
+<h3 id="step-3-reload-server">Step 3 — Reload server</h3>
+<ul>
+<li>Nginx: <code>nginx -s reload</code></li>
+<li>Apache: <code>apachectl graceful</code></li>
+</ul>
+<hr />
+<h2 id="if-its-cloudflare-cdn-403">If it’s Cloudflare / CDN 403</h2>
+<ul>
+<li>Temporarily verify by disabling the blocking rule (WAF / firewall rule)</li>
+<li>Check IP / country blocking</li>
+<li>Purge cache and retry</li>
+</ul>
+<hr />
+<h2 id="if-its-api-403">If it’s API 403</h2>
+<ul>
+<li>Verify token / API key exists</li>
+<li>Check permission / scope</li>
+<li>Retry with minimal required scope</li>
+</ul>
+<hr />
+<h2 id="why-this-exists">Why this exists</h2>
+<p>People search “403 forbidden” constantly, yet most answers only list possibilities.
+This page gives you the next step that usually works.</p>
 
 
 
 
 
+
+
+  
+  
+
+
+
+
+  
 
 
 
