@@ -2,42 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://answerdecision.com/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/decision-boundary/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/disclaimer/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/false-progress/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/faq/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/fix-403/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/responsibility-does-not-transfer/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/webhook-not-triggered/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/what-this-site-is-not/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
     </url>
     <url>
          <loc>https://answerdecision.com/why-this-site-exists/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://answerdecision.com/checklists/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://answerdecision.com/checklists/before-database-migration/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://answerdecision.com/checklists/before-retrying-payment/</loc>
+         <lastmod>2026-01-21</lastmod>
     </url>
 </urlset>
